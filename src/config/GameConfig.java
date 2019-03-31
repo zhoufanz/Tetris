@@ -5,9 +5,7 @@ import org.dom4j.Element;
 import org.dom4j.io.SAXReader;
 
 import java.io.FileInputStream;
-import java.io.FileOutputStream;
 import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
 
 /**
  *关于static 与 final 的使用问题
@@ -91,12 +89,12 @@ public class GameConfig {
 		return SYSTEM_CONFIG;
 	}
 	
-	public static void main(String[] args) throws Exception {
+	/*public static void main(String[] args) throws Exception {
 		ObjectOutputStream ois = new ObjectOutputStream(new FileOutputStream("data/frameConfig.dat"));
 		ois.writeObject(FRAME_CONFIG);
 		ois = new ObjectOutputStream(new FileOutputStream("data/systemConfig.dat"));
 		ois.writeObject(SYSTEM_CONFIG);
 		ois = new ObjectOutputStream(new FileOutputStream("data/dataConfig.dat"));
 		ois.writeObject(DATA_CONFIG);
-	}
+	}*/
 }
