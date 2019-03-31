@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact name="Tetris:jar">
+    <output-path>$PROJECT_DIR$/classes/artifacts/Tetris_jar</output-path>
+    <root id="root">
+      <element id="archive" name="Tetris.jar">
+        <element id="module-output" name="Tetris" />
+      </element>
+      <element id="library" level="module" name="dom4j-1.6.1.jar" module-name="Tetris" />
+      <element id="library" level="module" name="mysql-connector-java-5.0.8-bin.jar" module-name="Tetris" />
+    </root>
+  </artifact>
+</component>
